@@ -1,0 +1,109 @@
+
+.login{
+    flex:4;
+    box-shadow: 4px 4px 13px 0px rgba(0,0,0,0.4);
+   
+    width: 60%; 
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.loginContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.loginleft,
+.loginright{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.loginleft{
+  
+}
+
+.loginright{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.or{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 50%;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+}
+.line{
+    width: 0.5px;
+    height: 60%;
+    background-color: rgb(216, 211, 211);
+    position: absolute;
+    z-index: -1;
+}
+.loginButton{
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.google {
+    background-color: red;
+}
+.facebook {
+    background-color: blue;
+}
+.github {
+    background-color: black;
+}
+.icon{
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+input{
+    width: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.loginButton2{
+    width: 200px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+   
+}
+.loginButton2:hover{
+    padding: 12px 18px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.logintitle{
+    position: absolute;
+    top: 150px;
+}

@@ -1,0 +1,47 @@
+.newproduct{
+    flex: 4;
+    margin-left: 30px;
+}
+.newProductForm{
+  
+}
+.newProductItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.newProductItem>label{
+    color: rgb(43, 41, 41);
+    margin-bottom: 10px;
+}
+.newProductItem>input{
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 157, 157);
+}
+
+
+.newProductSelect{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 157, 157);
+}
+
+.newProductButton{
+    width: 175px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: indigo;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+

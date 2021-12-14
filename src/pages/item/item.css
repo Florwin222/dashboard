@@ -1,0 +1,110 @@
+.item{
+    flex: 4;
+    padding: 20px;
+}
+.itemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemAddButton{
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.itemTop{
+    display:flex;
+}
+.itemTopLeft, 
+.itemTopRight{
+    flex: 1;
+}
+.itemTopRight{
+   padding: 20px;
+   margin: 20px;
+   box-shadow: 10px 12px 11px -7px rgba(0,0,0,0.48);
+-webkit-box-shadow: 10px 12px 11px -7px rgba(0,0,0,0.48);
+
+}
+.itemInfoTop{
+    display: flex;
+    align-items: center;
+}
+.itemInfoImg{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.itemName{
+    font-weight: 600;
+}
+.itemInfobottom{
+    margin-top: 10px;
+}
+.itemInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.itemInfoKey{
+   font-weight: 600;
+}
+.itemInfoValue{
+    font-weight: 200;
+}
+.itemBottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 10px 12px 11px -7px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 10px 12px 11px -7px rgba(0,0,0,0.48);
+}
+.itemForm{
+   display:flex; 
+   justify-content: space-between;
+}
+.itemFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+.itemFormLeft>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.itemFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.itemFormLeft>select{
+    margin-bottom: 10px;
+}
+.itemFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.itemUpload{
+   display: flex;
+   align-items: center; 
+}
+.itemUploadImg{
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.itemButton{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: white;
+    padding: 10px;
+
+}
